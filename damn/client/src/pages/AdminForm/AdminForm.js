@@ -6,7 +6,8 @@ import AdminJumbo from "../../components/AdminJumbo/AdminJumbo";
 import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import Jumbotron from "../../components/Jumbotron";
-import DeleteBtn from "../../components/DeleteBtn"
+import DeleteBtn from "../../components/DeleteBtn";
+
 
 class AdminForm extends Component {
   state = {
@@ -14,7 +15,7 @@ class AdminForm extends Component {
     description: "",
     testResult: "",
     comments: "",
-    image: []
+    image: ""
   };
 
   componentDidMount() {
